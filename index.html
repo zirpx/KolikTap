@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Автоподбор — экономим время и деньги</title>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+
+    </style>
+</head>
+<body>
+<header>
+    <div class="container">
+        <h1 class="name-of-the-company">Автоподбор<br><span class="gradient-text">Soobiiir Podborovich</span></h1>
+    </div>
+</header>
+<section style="background: linear-gradient(135deg, #eff6ff 0%, #f5f3ff 100%);">
+    <div class="container" style="display: flex; flex-wrap: wrap; align-items: center; gap: 40px;">
+        <div style="flex: 1;">
+            <h1 style="font-size: 3rem; line-height: 1.2;">
+                Найдём автомобиль <span class="gradient-text">мечты</span><br>
+                без переплат и риска
+            </h1>
+            <p style="font-size: 1.2rem; margin: 24px 0; color: #334155;">Экономия от 500 000 ₸ и полная проверка авто</p>
+            <a href="#form" class="btn-primary">Заказать автоподбор →</a>
+        </div>
+        <div style="flex: 1; text-align: center;">
+            <div class="icon" ><img class="image" src="./Nurzhik.avif" alt="Photo of a male"></div>
+        </div>
+    </div>
+</section>
+
+<!-- Кому нужно -->
+<section>
+    <div class="container">
+        <h2>Кому <span class="gradient-text">нужен автоподбор</span>?</h2>
+        <div class="grid-3">
+            <div class="card"><div class="icon">⏱️</div><h3>Занятым людям</h3><p>Нет времени ездить по автосалонам и тратить дни на поиски</p></div>
+            <div class="card"><div class="icon">🕵️</div><h3>Новичкам</h3><p>Боитесь купить битую или криминальную машину</p></div>
+            <div class="card"><div class="icon">💰</div><h3>Экономным</h3><p>Хотите получить максимум за свой бюджет</p></div>
+        </div>
+    </div>
+</section>
+
+<!-- Выгоды с цифрами -->
+<section style="background: #ffffff;">
+    <div class="container">
+        <h2>Ваши <span class="gradient-text">выгоды</span></h2>
+        <div class="card"><div class="benefit-number">от 500 000 ₸</div><p>экономия на переплатах и скрытых дефектах</p><div class="icon">💰</div></div>
+        
+        <div class="grid-3">
+            <div class="card"><div class="benefit-number">72 часа</div><p>вместо 2-3 недель самостоятельного поиска</p><div class="icon">⏳</div></div>
+            <div class="card"><div class="benefit-number">100%</div><p>юридическая и техническая проверка</p><div class="icon">✅</div></div>
+        </div>
+    </div>
+</section>
+
+<!-- Как работаем -->
+<section>
+    <div class="container">
+        <h2>Как мы <span class="gradient-text">работаем</span></h2>
+        <div class="steps">
+            <div class="step"><span class="benefit-number">01</span><h3>Заявка</h3><p>Оставляете заявку с бюджетом и пожеланиями</p></div>
+            <div class="step"><span class="benefit-number">02</span><h3>Поиск</h3><p>Подбираем 3-5 лучших вариантов на рынке</p></div>
+            <div class="step"><span class="benefit-number">03</span><h3>Проверка</h3><p>Диагностика, юрчистота, торг с продавцом</p></div>
+            <div class="step"><span class="benefit-number">04</span><h3>Сделка</h3><p>Сопровождаем до подписания договора</p></div>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- Форма заявки -->
+<section id="form" style="background: linear-gradient(135deg, #eff6ff, #f5f3ff);">
+    <div class="container">
+        <div class="form-box">
+            <h2>Оставьте заявку</h2>
+            <p style="margin-bottom: 20px;">Получите консультацию и расчет стоимости подбора</p>
+
+            <!-- ⚠️ ВАЖНО: ЗАМЕНИТЕ ЭТОТ ID ФОРМЫ НА СВОЙ ⚠️ -->
+            <form id="contactForm" 
+                  action="https://docs.google.com/forms/d/e/1FAIpQLSf6_geAtfidnJ9m77vdJdyQ7xybycuei2lqNX1D7aZ4p1-jlQ/formResponse?" 
+                  method="POST" 
+                  target="hidden_iframe">
+                
+                <!-- ⚠️ ЗАМЕНИТЕ entry.XXXXXX НА СВОИ ID ПОЛЕЙ ⚠️ -->
+                <input type="text" name="entry.2122099247" placeholder="Ваше имя" required>
+                <input type="tel" name="entry.1001449359" placeholder="Телефон" required>
+                <input type="text" name="entry.1493083324" placeholder="Бюджет на авто">
+                
+                <button type="submit">Подобрать авто →</button>
+            </form>
+
+            
+
+            <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"></iframe>
+            <p style="margin-top: 16px; font-size: 0.9rem;">📞 Или позвоните: </p>
+            <a href="tel:77770604499">+7 (777) 060-44-99</a><br><a href="tel:+77776564400">+7 (777) 656-44-00</a>
+        </div>
+    </div>
+</section>
+
+<footer style="text-align: center; padding: 32px; color: #64748b;">
+    <p>© 2026 Автоподбор — честные авто без риска</p>
+    <p>А ты редиска</p>
+</footer>
+
+</html>
+</body>
