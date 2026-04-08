@@ -157,6 +157,7 @@
             border-radius: 50%;
             border: 5px solid;
             border-color: #7c3aed;
+            object-fit: cover;
        }
 
         @media (max-width: 768px) {
